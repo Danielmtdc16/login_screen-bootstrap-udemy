@@ -1,0 +1,62 @@
+body {
+    background-color: #F8F8F8;
+}
+
+.container {
+    background-color: white;
+    border-radius: 40px;
+    padding: 40px;
+    margin-top: 70px;
+    box-shadow: 0px 10px 24px 2px rgba(0,0,0,0.2);
+}
+
+#title-login-screen {
+    font-weight: 700;
+    text-align: center;
+}
+
+.inputs {
+    padding: 15px;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #a4a4a46d;
+}
+
+.inputs:focus {
+    box-shadow: none;
+}
+
+.inputs ~ label {
+    color: #a4a4a46d;
+}
+
+.form-floating > .form-control:focus~label {
+    color: rgb(94, 94, 94);
+}
+
+.button {
+    font-size: 20px;
+}
+
+#link-login-screen {
+
+    & a {
+        color: rgb(121, 121, 121);
+    }
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+}
+
+#img-login-screen {
+    margin-bottom: 60px;
+}
+
+form {
+    padding-bottom: 100px;
+}
+
+.row.align-items-center {
+    align-items: center;
+    height: 100%;
+}
