@@ -5,7 +5,7 @@ body {
 .container {
     background-color: white;
     border-radius: 40px;
-    padding: 40px;
+    padding: 80px;
     margin-top: 70px;
     box-shadow: 0px 10px 24px 2px rgba(0,0,0,0.2);
 }
@@ -13,50 +13,40 @@ body {
 #title-login-screen {
     font-weight: 700;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .inputs {
     padding: 15px;
     border: 0;
+    font-size: 20px;
     border-radius: 0;
-    border-bottom: 2px solid #a4a4a46d;
+    border-bottom: 2px solid #c5c5c5;
 }
 
 .inputs:focus {
     box-shadow: none;
 }
 
-.inputs ~ label {
-    color: #a4a4a46d;
+.inputs ~ label {   
+    color: #c5c5c5;
+    font-size: 17px;
 }
 
-.form-floating > .form-control:focus~label {
-    color: rgb(94, 94, 94);
+.form-floating .inputs:focus~label {
+    color: #c5c5c5;
 }
 
 .button {
     font-size: 20px;
 }
 
-#link-login-screen {
+#link {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 20px;
 
     & a {
-        color: rgb(121, 121, 121);
+        color: black;
     }
-    font-size: large;
-    font-weight: 500;
-    text-align: center;
-}
-
-#img-login-screen {
-    margin-bottom: 60px;
-}
-
-form {
-    padding-bottom: 100px;
-}
-
-.row.align-items-center {
-    align-items: center;
-    height: 100%;
 }
